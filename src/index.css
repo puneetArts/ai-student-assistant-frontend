@@ -50,7 +50,7 @@ button {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  background: linear-gradient(90deg, #6366f1, #8b5cf6);
+  background: linear-gradient(90deg, #3d7e93, #0c5877);
   color: white;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
@@ -111,6 +111,10 @@ p {
 }
 /* typing animation     
  */
+ .loader{
+  justify-content: center;
+  align-items: center;
+ }
 .typing-animation {
   font-size: 1.5rem;
   color: #e0e7ff;

@@ -1,3 +1,8 @@
+import { RingLoader } from "react-spinners";
+import "./Loader.css"; 
+
 export default function Loader() {
-  return <p>Generating response...</p>;
+  return <div className="loader">
+              <RingLoader color="#42a2d2" size={150} />
+            </div>;
 }
