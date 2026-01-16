@@ -109,3 +109,26 @@ p {
   color: #f87171;
   text-align: center;
 }
+/* typing animation     
+ */
+.typing-animation {
+  font-size: 1.5rem;
+  color: #e0e7ff;
+  border-right: 2px solid #6366f1;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 0;
+  animation:
+    typing 3s steps(32, end) forwards,
+    blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 31ch; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}

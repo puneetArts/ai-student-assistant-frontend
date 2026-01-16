@@ -31,7 +31,9 @@ export default function Home() {
 
   return (
     <div className="container">
-      <h1>AI-Powered Student Assistant</h1>
+      <h1 className="typing-animation">
+  Hey! I’m your AI-Powered Assistant.</h1>
+
 
       <ModeSelector mode={mode} setMode={setMode} />
       <InputBox prompt={prompt} setPrompt={setPrompt} />
